@@ -1,7 +1,7 @@
 import "./style.css";
 import "./AGInput.scss";
 import "bootstrap";
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.css"
 
 document.querySelector("#app").innerHTML = `
   <h1>Hello Vite!</h1>
