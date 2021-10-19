@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <section id="AGInput" class="py-5 w-100 text-center bg-light">
+      <input type="file" />
+    </section>
+
+    <button
+      class="btn btn-primary"
+      data-bs-target="#collapseTarget"
+      data-bs-toggle="collapse"
+    >
+      Bootstrap collapse
+    </button>
+    <div class="collapse py-2" id="collapseTarget">
+      This is the toggle-able content!
+    </div>
+
+    <section id="AGInputSecond" class="py-5 w-100 text-center bg-light">
+      <div class="d-flex justify-content-center wrapper align-items-center">
+        <input type="file" name="file" id="file" class="file" />
+        <div class="d-flex">
+          <input
+            type="text"
+            name="file-name"
+            id="file-name"
+            class="file-name"
+            readonly="readonly"
+          />
+          <input type="button" class="btn" value="select" />
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
